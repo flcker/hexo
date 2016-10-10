@@ -24,7 +24,12 @@ $blue         = #0684bd
 $blue-deep    = #262a30
 $orange       = #fc6423
 
-
+// 下面是我自定义的颜色
+$self-link-color =  #009688 //链接颜色
+$self-link-hover-color =  #da251c //鼠标悬停后颜色
+$self-link-hover-orange = #ff5315 //
+$self-code-foreground = #dd0055  // 用``围出的代码块字体颜色
+$self-code-background = #eee  // 用``围出的代码块背景颜色
 
 // Scaffolding
 // Settings for some of the most global styles.
@@ -38,6 +43,10 @@ $link-color                   = $black-light
 $link-hover-color             = $black-deep
 $link-decoration-color        = $grey-light
 $link-decoration-hover-color  = $black-deep
+// 自定义link颜色
+$link-color                   = $self-link-color
+$link-hover-color             = $self-link-hover-color
+$link-decoration-hover-color  = $self-link-hover-orange
 
 // Global border color.
 $border-color                 = $grey-light
@@ -91,7 +100,7 @@ $font-weight-bolder       = 700
 
 
 // Font size
-$font-size-base           = 14px
+$font-size-base           = 16px
 $font-size-small          = $font-size-base - 2px
 $font-size-smaller        = $font-size-base - 4px
 $font-size-large          = $font-size-base + 2px
@@ -144,7 +153,9 @@ $table-row-hover-bg-color       = $whitesmoke
 $code-font-family               = $font-family-monospace
 $code-font-size                 = 13px
 $code-border-radius             = 3px
-
+// 自定义code color; 不起作用
+$code-background                = $self-code-background
+$code-foreground                = $self-code-foreground
 
 
 // Buttons
@@ -186,10 +197,10 @@ $pagination-active-border       = $grey-light
 // Layout sizes
 // --------------------------------------------------
 
-$main-desktop                   = 960px
+$main-desktop                   = 1080px
 $main-desktop-large             = 1200px
 
-$content-desktop                = 700px
+$content-desktop                = 810px
 $content-desktop-large          = 900px
 $content-desktop-padding        = 40px
 
@@ -201,9 +212,9 @@ $gap-between-main-and-footer    = 100px
 
 
 
-// Headband
+// Headband 
 // --------------------------------------------------
-$headband-height                = 3px
+$headband-height                = 5px
 $headband-bg                    = $black-deep
 
 
