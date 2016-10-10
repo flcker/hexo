@@ -67,6 +67,17 @@ pagination_dir: page
 #theme: landscape
 theme: next
 
+# plugins:
+# - hexo-generator-baidu-sitemap
+# - hexo-generator-feed
+
+# 百度 sitemap（站点地图，方便搜索引擎的收录）
+baidusitemap:
+  path: baidusitemap.xml
+
+# Feed 
+rss:
+
 # 自定义站点内容搜索
 # 需要先安装插件：
 # npm install hexo-generator-search --save
