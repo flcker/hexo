@@ -30,9 +30,10 @@ canonical: true
 menu:
   home: 
   categories: categories
-  about: about
   archives: archives
+  travels: categories/travels
   tags: tags
+  about: about
   #commonweal: /404.html
 
 
@@ -50,6 +51,7 @@ menu_icons:
   tags: tags
   archives: archive
   commonweal: heartbeat
+  travels: subway
 
 
 
