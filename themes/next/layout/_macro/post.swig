@@ -57,6 +57,10 @@
             </time>
           </span>
 
+          {% if not is_index %}
+            <span id="busuanzi_container_page_pv">&nbsp;&nbsp;|&nbsp;&nbsp;共有 <span id="busuanzi_value_page_pv"></span> 人已阅</span>
+          {% endif %}
+          
           {% if post.categories and post.categories.length %}
             <span class="post-category" >
               &nbsp; | &nbsp;

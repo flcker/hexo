@@ -30,8 +30,8 @@ canonical: true
 menu:
   home: 
   categories: categories
-  archives: archives
   travels: categories/travels
+  archives: archives
   tags: tags
   about: about
   #commonweal: /404.html
